@@ -1,0 +1,11 @@
+Census_year,HEI_Code,HEI_Academic_level,HEI_Administrative_type,Code_contract,ID,Status,Education,Work_contract,Sex,Age,Race,Origin_country_code,Nationality,Birth_state,Birth_city,Disability,Dis_blindness,Dis_low_vision,Dis_deaf,Dis_hard_hearing,Dis_physical,Dis_deaf_blind,Dis_multiple,Dis_mental,Work_distance_education,Work_outreach,Work_administration,Work_bachelor_F2F,Work_specialization_DE,Work_specialization_F2F,Work_short_programs,Work_research,Research_scholarship,Substitute,Visiting
+2013,15,College,For profit,10063,2551,Active,Master,Part-time,Female,43,Brown,10,Brazilian,Piauí,2211001,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2013,15,Federal center,Special,106042,2550,Excused - health reasons,Master,Hourly,Male,65,Black,10,Brazilian,Minas Gerais,3106200,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2013,56,University,State,132513,2557,Active,PhD,Full time - exclusive,Male,52,White,10,Brazilian,São Paulo,3543402,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0
+2013,279,College,For profit,160682,2549,Excused - Qualification,Bachelor,Full time - not exclusive,Male,48,White,10,Brazilian,Rio de Janeiro ,3304557,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+2013,279,University center,For profit,312845,2551,Active,Specialization,Full time - not exclusive,Male,43,Yellow,10,Brazilian,Piauí,2211001,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2013,279,University,State,350218,2546,Active,PhD,Full time - exclusive,Male,59,Not available,10,Foreign,Rio Grande do Norte,2408102,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0
+2013,2804,Federal institute,Nonprofit,354545,2549,Excused - acting elsewhere,Specialization,Hourly,Male,48,White,10,Brazilian,Rio de Janeiro ,3304557,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2013,5,University,Federal,474653,2552,Active,PhD,Full time - exclusive,Male,56,Indigenous,10,Brazilian,,,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,1,0,0
+2013,5,University center,Municipal,482548,2548,Excused - others,Highschool,Full time - exclusive,Male,62,Undeclared,10,Brazilian,,,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0
+2013,5,University,Federal,506350,2544,Active,PhD,Full time - not exclusive,Male,64,Not available,10,Brazilian - born abroad,,,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0

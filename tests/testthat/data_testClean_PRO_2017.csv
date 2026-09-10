@@ -1,0 +1,11 @@
+Census_year,Code,Name,Region,Meso-region,Micro-region,State,City,Capital,HEI_Academic_level,HEI_Administrative_type,HEI_Communitary,HEI_Confessional,HEI_Code,Code_CINE,Code_OECD,Degree_type,Tuition_free,Educational_mode,Sequential,Workload_total,Workload_distance_perc,Program_amount,Places_total,Places_day,Places_evening,Places_distance,Places_new,Places_selec_process,Places_remaining,Places_special,Applicants_total,Applicants_day,Applicants_evening,Applicants_distance,Applicants_new,Applicants_selec_process,Applicants_remaining,Applicants_special
+2017,6578,CIÊNCIAS BIOLÓGICAS,,,,São Paulo,3549904,0,University,Nonprofit,,,1683,,145F01,License,0,Classroom,0,2849,4.2,,90,40,50,0,80,0,10,0,34,8,26,0,31,0,3,0
+2017,18061,DIREITO,,,,Distrito Federal,5300108,1,Federal center,Nonprofit,,,1820,,380D01,Bachelor,0,Classroom,0,3790,16,,840,420,420,0,720,0,120,0,2636,1318,1318,0,2437,0,199,0
+2017,38315,ENFERMAGEM,,,,Piauí,2211001,1,University center,For profit,,,1820,,7230,Bachelor,0,Classroom,0,4000,4,,337,337,0,0,231,0,106,0,803,803,0,0,697,0,106,0
+2017,52052,ENGENHARIA ELÉTRICA,,,,São Paulo,3509502,0,Federal institute,For profit,,,1683,,522000000,Bachelor,0,Classroom,0,3892,,,191,0,191,0,67,0,124,0,125,0,125,0,110,0,15,0
+2017,68433,DIREITO,,,,São Paulo,3510609,0,College,Municipal,,,2341,,380D01,Bachelor,0,Classroom,1,4080,,,240,120,120,0,200,0,40,0,160,80,80,0,100,0,60,0
+2017,114977,MARKETING,,,,Distrito Federal,5300108,1,College,For profit,,,18812,,342M01,Technology,0,Distance,0,1880,,,100,0,0,100,100,0,0,0,41,0,0,41,41,0,0,0
+2017,1258115,GESTÃO DE RECURSOS HUMANOS,,,,Mato Grosso,5107925,0,University center,State,,,4567,,345G09,Technology,0,Distance,0,1720,,,95,0,0,95,50,0,45,0,80,0,0,80,52,0,28,0
+2017,1259131,MÚSICA,,,,Roraima,1400100,1,University,Federal,,,13,,146F20,License,1,Classroom,0,3210,,,50,0,50,0,50,0,0,0,469,0,469,0,469,0,0,0
+2017,1288733,ENFERMAGEM,,,,Bahia,2927408,1,University center,Nonprofit,,,18812,,7230,Bachelor,0,Classroom,0,4360,20,,1143,571,572,0,200,0,943,0,1095,566,529,0,1008,0,87,0
+2017,1303755,BIOMEDICINA,,,,São Paulo,3547809,0,University,For profit,,,18812,,421B07,Bachelor,0,Classroom,0,3200,20,,150,79,71,0,149,0,1,0,837,276,561,0,833,0,4,0

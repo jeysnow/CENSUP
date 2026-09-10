@@ -1,0 +1,35 @@
+Package: CENSUP
+Type: Package
+Title: Standartization of Brazilian higher education census data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "João Gabriel", "Vasconcellos Godoy",
+      email = "jey.snow.dev@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Cleans and standardises data from the Brazilian higher education census, to allow for easy panel analysis of the available variables.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    data.table
+Config/roxygen2/version: 8.1.0
+Collate: 
+    'CENSUP-package.R'
+    'agregation.R'
+    'checks.R'
+    'clean_HEI.R'
+    'clean_HEI_FAC.R'
+    'clean_PRO.R'
+    'clean_faculty.R'
+    'combine_HEI_FAC.R'
+    'global.R'
+    'standartization.R'
+    'utils.R'

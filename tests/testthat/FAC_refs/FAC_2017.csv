@@ -1,0 +1,11 @@
+Census_year,HEI_Code,HEI_Academic_level,HEI_Administrative_type,Code_contract,ID,Status,Education,Work_contract,Sex,Age,Race,Origin_country_code,Nationality,Birth_state,Birth_city,Disability,Dis_blindness,Dis_low_vision,Dis_deaf,Dis_hard_hearing,Dis_physical,Dis_deaf_blind,Dis_multiple,Dis_mental,Work_distance_education,Work_outreach,Work_administration,Work_bachelor_F2F,Work_specialization_DE,Work_specialization_F2F,Work_short_programs,Work_research,Research_scholarship,Substitute,Visiting
+2017,13,University,Nonprofit,701167,118988178970,Active,Master,Hourly,Male,38,White,76,Brazilian,Santa Catarina,4210100,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2017,673,University center,Nonprofit,511660,118988178926,Active,Master,Full time - not exclusive,Female,26,White,76,Foreign,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2017,1365,University center,Nonprofit,511665,118988178932,Active,Specialization,Hourly,Male,23,Undeclared,76,Brazilian,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2017,1365,University center,Nonprofit,511742,118988178929,Active,Master,Part-time,Female,26,Undeclared,76,Brazilian,,,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+2017,1683,College,Municipal,511342,118988178841,Excused - others,PhD,Part-time,Male,31,Black,76,Brazilian,Piauí,2200053,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2017,1683,College,For profit,511343,118988178842,Excused - health reasons,Bachelor,Full time - exclusive,Male,29,Brown,76,Brazilian,Piauí,2200053,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2017,1683,Federal center,For profit,511344,118988178843,Active,Highschool,Hourly,Female,45,Yellow,76,Brazilian,Piauí,2200053,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2017,1820,Federal institute,Special,637416,118988178848,Active,Master,Full time - not exclusive,Female,25,Indigenous,404,Brazilian - born abroad,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+2017,18812,University,Federal,511070,118988178830,Excused - Qualification,Master,Full time - not exclusive,Female,30,Undeclared,76,Brazilian,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+2017,18812,University,State,511114,118988178831,Excused - acting elsewhere,Master,Full time - not exclusive,Male,26,White,76,Brazilian,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0

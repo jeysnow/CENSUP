@@ -1,0 +1,11 @@
+Census_year,HEI_Code,HEI_Academic_level,HEI_Administrative_type,Code_contract,ID,Status,Education,Work_contract,Sex,Age,Race,Origin_country_code,Nationality,Birth_state,Birth_city,Disability,Dis_blindness,Dis_low_vision,Dis_deaf,Dis_hard_hearing,Dis_physical,Dis_deaf_blind,Dis_multiple,Dis_mental,Work_distance_education,Work_outreach,Work_administration,Work_bachelor_F2F,Work_specialization_DE,Work_specialization_F2F,Work_short_programs,Work_research,Research_scholarship,Substitute,Visiting
+2010,203,Federal institute,Federal,39683,7498,Active,Highschool,Full time - exclusive,Male,50,Undeclared,10,Brazilian,Rio Grande do Norte,2408102,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1
+2010,203,University,For profit,138241,7500,Excused - acting elsewhere,Specialization,Full time - not exclusive,Male,35,White,10,Brazilian,São Paulo,3550308,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+2010,1932,College,Nonprofit,877204,7506,Active,Master,Hourly,Male,30,Yellow,10,Brazilian - born abroad,Rio Grande do Sul,4303004,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2010,1032,Federal center,Nonprofit,904933,7506,Active,Master,Part-time,Male,30,Indigenous,404,Foreign,Rio Grande do Sul,4303004,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2010,1032,University,Federal,936378,7505,Active,PhD,Full time - exclusive,Male,55,White,10,Brazilian,Rio Grande do Sul,4312203,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0
+2010,1032,University center,Nonprofit,961605,7504,Active,Master,Hourly,Female,47,Brown,10,Brazilian,São Paulo,3530805,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2010,20,University,Nonprofit,992565,7505,Active,PhD,Hourly,Male,55,Black,10,Brazilian,Rio Grande do Sul,4312203,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+2010,621,University center,Nonprofit,1079788,7501,Excused - others,Master,Hourly,Male,55,Brown,10,Brazilian,Alagoas,2704302,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2010,666,University,State,1253425,7499,Excused - Qualification,Bachelor,Full time - exclusive,Male,60,Not available,10,Brazilian,Rio Grande do Norte,2408102,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+2010,666,University,Municipal,1293716,7503,Deceased ,PhD,Full time - not exclusive,Male,45,Not available,10,Brazilian,Bahia,2910800,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
