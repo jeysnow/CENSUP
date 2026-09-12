@@ -1,5 +1,10 @@
-
-#' Read a csv file from CENSUP and create a standardized file for faculty level data
+#' @include global.R
+#' @include checks.R
+#' @include standartization.R
+#' @include utils.R
+#' @include agregation.R
+#'
+#' Read csv files from CENSUP and create a standardized file for faculty level data
 #'
 #' @param READ_FROM the path to a csv file or a folder containing csv files
 #' @param OUTPUT_TO the path to a folder where the standardized file is to be written to.
@@ -15,7 +20,7 @@
 clean_FAC <- function(READ_FROM,OUTPUT_TO = "RETURN",LANGUAGE = "ENG",CITY_NAMES = T){
 
   # checking inputs
-  path_files <-  check_read_from(READ_FROM,"clean_FAC")
+  path_files <- check_read_from(READ_FROM,"clean_FAC")
 
   for (f in READ_FROM) { check_file(f,"clean_FAC")}
 
@@ -32,7 +37,6 @@ clean_FAC <- function(READ_FROM,OUTPUT_TO = "RETURN",LANGUAGE = "ENG",CITY_NAMES
   output <- list()
   for (f in path_files) {
 
-
     #check file contents
 
     raw_year <- as.numeric(substr(f,nchar(f)-7,nchar(f)-4))
@@ -42,7 +46,6 @@ clean_FAC <- function(READ_FROM,OUTPUT_TO = "RETURN",LANGUAGE = "ENG",CITY_NAMES
     print(paste("reading file ",f))
 
     raw <- fread(f, encoding = "Latin-1",na.strings = "")
-
     # Standardize headers----
     clean_table <- convert_headers(raw,references$FAC$names,raw_year)
     rm(raw)

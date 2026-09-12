@@ -1,4 +1,10 @@
-#' Combines faculty data at the HEI level and merges with HEI data
+#' @include global.R
+#' @include checks.R
+#' @include standartization.R
+#' @include utils.R
+#' @include agregation.R
+
+#' Combines cleaned faculty data at the HEI level and merges with cleaned HEI data
 #'
 #' @param CLEAN_HEI A data.table with clean HEI data, or a list of such,
 #' or a path to a file containing clean HEI data, or vector of such,
@@ -50,8 +56,6 @@ combine_HEI_FAC <- function(CLEAN_HEI,CLEAN_FAC,OUTPUT_TO = "RETURN",
       stop(paste("combie_HEI_FAC received a path that does not point to an existing directory: ",OUTPUT_TO))
   }
 
-
-
   #iterate thorugh itens----
   output <- list()
 
@@ -62,7 +66,6 @@ combine_HEI_FAC <- function(CLEAN_HEI,CLEAN_FAC,OUTPUT_TO = "RETURN",
 
     #Matching HEI to FAC data----
     f <- matching_data(h,clean_f)
-
     aggregated <- f[,.(
       Fac_active = sum(Status=="Active"),
       Fac_fem = sum(Sex=="Female"),

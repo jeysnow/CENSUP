@@ -1,3 +1,6 @@
+#' @include global.R
+#' @include checks.R
+
 #HEI----
 convert_academic_level <- function(ACADEMIC_LEVEL, LANGUAGE = "ENG"){
   return(convert_with_array(

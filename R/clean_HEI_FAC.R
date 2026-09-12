@@ -1,5 +1,12 @@
-#' Title
-#' @param READ_FROM the path to a csv file or a folder containing csv files for HEI data
+#' @include global.R
+#' @include checks.R
+#' @include standartization.R
+#' @include utils.R
+#' @include agregation.R
+#'
+#' Read csv files from CENSUP and create a standardized file for HEI level data with aggregated faculty data
+#'
+#' @param READ_FROM_HEI the path to a csv file or a folder containing csv files for HEI data
 #' @param OUTPUT_TO the path to a folder where the standardized file is to be written to.
 #'  Defaults to "return", whereby the function simply returns and doesn't save the table
 #' @param READ_FROM_FAC the path to a csv file or a folder containing csv files for faculty data
@@ -16,9 +23,12 @@ clean_HEI_FAC <- function(READ_FROM_HEI,OUTPUT_TO = "RETURN",
 
   # Check inputs----
   HEI_files <- check_read_from(READ_FROM_HEI,"READ_FROM_HEI")
-  if(READ_FROM_FAC!="NONE")
-    FAC_files <- check_read_from(READ_FROM_FAC,"READ_FROM_HEI")
-  else FAC_files <- "NONE"
+
+  FAC_files_empty <- check_input_standard(READ_FROM_FAC,"NONE")
+
+  if(FAC_files_empty == FALSE)
+    FAC_files <- check_read_from(READ_FROM_FAC,"READ_FROM_FAC")
+
 
   check_supported_LANGUAGE(LANGUAGE)
 
@@ -36,8 +46,8 @@ clean_HEI_FAC <- function(READ_FROM_HEI,OUTPUT_TO = "RETURN",
     raw_year <- as.numeric(substr(h,nchar(h)-7,nchar(h)-4))
     check_supported_year(raw_year,"Clean_HEI_FAC")
 
-    if(raw_year %in% 2009:2019 & FAC_files == "NONE")
-      warning(paste("clean_HEI_FAC received data for census year ",raw_year,
+    if(raw_year %in% 2009:2019 & FAC_files_empty == TRUE)
+        warning(paste("clean_HEI_FAC received data for census year ",raw_year,
                     ", but not data to READ_FROM_FAC, this will results in NAs
                     to faculty variables"))
 
@@ -46,11 +56,10 @@ clean_HEI_FAC <- function(READ_FROM_HEI,OUTPUT_TO = "RETURN",
     clean_table <- 0
     gc()
 
+    if(FAC_files_empty == FALSE){
+      f <- matching_data(h,FAC_files,RETURN_DT = FALSE)
 
-    if(FAC_files!="NONE"){
-      f <- matching_data(h,FAC_files)
-
-      if(f != "NO_MATCH"){
+      if(check_input_standard(f,"NO_MATCH") == FALSE){
         clean_table <- combine_HEI_FAC(
           CLEAN_HEI = , clean_h,
           CLEAN_FAC = clean_FAC(

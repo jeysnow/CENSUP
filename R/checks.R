@@ -1,3 +1,5 @@
+#' @include global.R
+
 check_file <- function(PATH,ORIGIN){
   if(!is.character(PATH))
     stop(paste(ORIGIN," received a path that's not a character string: ",PATH))
@@ -32,7 +34,7 @@ check_read_from <- function(READ_FROM,ORIGIN){
     else if(check_file(READ_FROM,ORIGIN))
       return(READ_FROM)
   }
-  else if(length(READ_FROM)<=1){
+  else if(length(READ_FROM)>=1){
     for (f in READ_FROM) {check_file(f,ORIGIN)}
     return(READ_FROM)
   }
@@ -54,4 +56,22 @@ check_clean<- function(DATA, ORIGIN, LANGUAGE = "ENG" ){
 
   return(references$clean_keys[KEY == key,VALUE] |> as.character())
 
+}
+
+check_input_standard <- function(INPUT,STANDARD){
+  if(length(INPUT)!= length(STANDARD))
+    return(FALSE)
+  for (i in 1:length(INPUT)) {
+    if(INPUT[i] != STANDARD[i])
+      return(FALSE)
+  }
+  return(TRUE)
+}
+
+check_NA_array <- function(ARRAY){
+  ARRAY <- unique(is.na(ARRAY)==TRUE)
+  if(length(ARRAY)==1)
+    if(ARRAY==TRUE)
+      return(TRUE)
+  return(FALSE)
 }

@@ -1,3 +1,7 @@
+#' @include global.R
+#' @include checks.R
+#' @include standartization.R
+#' @include utils.R
 #individual----
 disaggregate_age <- function(
     AGES, GROUP_BY_VALUES, GROUP_BY_NAME = "HEI_Code",

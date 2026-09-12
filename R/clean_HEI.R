@@ -1,4 +1,10 @@
-#' Read a csv file from CENSUP and create a standardized file for HEI level data
+#' @include global.R
+#' @include checks.R
+#' @include standartization.R
+#' @include utils.R
+#' @include agregation.R
+
+#' Read csv files from CENSUP and create a standardized file for HEI level data
 #'
 #' @param READ_FROM the path to a csv file or a folder containing csv files
 #' @param OUTPUT_TO the path to a folder where the standardized file is to be written to.
